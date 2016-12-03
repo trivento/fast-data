@@ -1,0 +1,26 @@
+
+project/project/
+project/plugins/project/
+project/boot/
+project/*-shim.sbt
+.idea
+*.iml
+.settings
+.classpath
+.project
+.cache
+.sbtserver
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+
+# Cassandra
+docker/cassandra/data
